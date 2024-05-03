@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+  
+        /*---first way to declare an array
+        let x=["red",101,true,"abc@gmail.com"]
+        console.log(x)
+         console.log(x[4]) //undefined
+         console.log(x[2])
+         -----*/
+
+         /*----second way to declare an array
+         let x=[]
+         console.log(x)
+         x[0]="red"
+         x[2]=true
+         console.log(x)
+
+         x[2]=false
+         console.log(x)
+         x[1]=101
+         console.log(x)
+         -------*/
+
+         /*----third way to declare an array
+         let x=new Array("red",true,101,false,"raj")
+         console.log(x)
+         -----*/
+
+
+         let x=["red","blue"]
+        console.log(x)
+
+        x.push("pink") //used to add from the last of array
+        console.log(x)
+
+        console.log(x.pop())  //used to remove from the last of array
+        console.log(x)
+
+        x.unshift("yellow") //add from first of an array
+        console.log(x)
+        
+        x.unshift("violet")
+        console.log(x)
+
+        console.log(x.shift()) //remove from first of an array
+        console.log(x)
+    </script>
+</body>
+</html>
